@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mon Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mon Quiz</h1>
+    </header>
+    <main>
+      <section id="accueil">
+        <button id="connexion-twitch-btn" onclick="connectWithTwitch()">
+          <img src="https://cdn.glitch.com/53808a56-9e2b-49d5-9a75-5a82bbdf246b%2Ftwitch.png?v=1631939210459" alt="Se connecter avec Twitch" />
+        </button>
+        <button id="jouer-maintenant-btn">Jouer maintenant</button>
+        <button id="classement-btn">Classement</button>
+      </section>
+      <section id="quiz">
+        <h2 id="quiz-question"></h2>
+        <ul id="quiz-answers"></ul>
+        <button id="play-again-btn" style="display: none;">Rejouer</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

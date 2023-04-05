@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  margin: 20px;
+}
+
+#accueil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#connexion-twitch-btn {
+  background-color: #9146FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#connexion-twitch-btn img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+#jouer-maintenant-btn,
+#classement-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#jouer-maintenant-btn:hover,
+#classement-btn:hover {
+  background-color: #3E8E41;
+}
+
+#quiz {
+  display: none;
+}
+
+#quiz-question {
+  margin-top: 0;
+}
+
+#quiz-answers {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#quiz-answers li {
+  margin-bottom: 10px;
+}
+
+#quiz-answers button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#quiz-answers button:hover {
+  background-color: #3E8E41;
+}
+
+#play-again-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/* Styles pour le titre */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Styles pour le bouton Twitch */
+#twitch-connect {
+  background-color: #9146ff;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#twitch-connect img {
+  height: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+/* Styles pour le bouton Jouer */
+#play-btn {
+  background-color: #9146ff;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Styles pour le score */
+#score {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Styles pour le compte à rebours */
+#countdown {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Styles pour les boutons de réponse */
+.answer-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.answer-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.answer-btn:active {
+  transform: translateY(2px);
+}
