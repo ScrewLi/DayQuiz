@@ -1,7 +1,7 @@
 // Fonction pour se connecter avec Twitch
 function connectWithTwitch() {
   // Remplacer CLIENT_ID par votre propre client ID
-  const CLIENT_ID = "votre_client_id";
+  const CLIENT_ID = "bbgt09sz9i3vlwveohg12cicwig2cb";
 
   // Rediriger l'utilisateur vers l'URL d'autorisation Twitch avec les scopes nécessaires
   window.location.href = `https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=${CLIENT_ID}&redirect_uri=http://localhost:8000&scope=user:read:email`;
@@ -220,7 +220,7 @@ function startQuiz() {
 // Fonction pour se connecter avec Twitch
 async function connectWithTwitch() {
   const clientId = "bbgt09sz9i3vlwveohg12cicwig2cb"; // Remplacer par votre propre client ID
-  const redirectUri = "http://localhost"; // Remplacer par votre propre URL de redirection
+  const redirectUri = "https://screwli.github.io/DayQuiz/"; // Remplacer par votre propre URL de redirection
   const responseType = "token";
   const scope = "openid";
 
