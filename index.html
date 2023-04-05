@@ -1,28 +1,77 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Mon Quiz</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Mon Quiz</h1>
-    </header>
-    <main>
-      <section id="accueil">
-        <button id="connexion-twitch-btn" onclick="connectWithTwitch()">
-          <img src="https://cdn.glitch.com/53808a56-9e2b-49d5-9a75-5a82bbdf246b%2Ftwitch.png?v=1631939210459" alt="Se connecter avec Twitch" />
-        </button>
-        <button id="jouer-maintenant-btn">Jouer maintenant</button>
-        <button id="classement-btn">Classement</button>
-      </section>
-      <section id="quiz">
-        <h2 id="quiz-question"></h2>
-        <ul id="quiz-answers"></ul>
-        <button id="play-again-btn" style="display: none;">Rejouer</button>
-      </section>
-    </main>
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Quizz de Culture Générale</title>
+</head>
+<body>
+  <h1>Quizz de Culture Générale</h1>
+  <form>
+    <ol>
+      <li>
+        <label for="q1">Question 1: Quel est le plus grand pays du monde ?</label><br>
+        <input type="radio" name="q1" value="a">A. Russie<br>
+        <input type="radio" name="q1" value="b">B. Chine<br>
+        <input type="radio" name="q1" value="c">C. États-Unis<br>
+      </li>
+      <li>
+        <label for="q2">Question 2: Quelle est la capitale de la France ?</label><br>
+        <input type="radio" name="q2" value="a">A. Berlin<br>
+        <input type="radio" name="q2" value="b">B. Londres<br>
+        <input type="radio" name="q2" value="c">C. Paris<br>
+      </li>
+      <li>
+        <label for="q3">Question 3: Qui a écrit Les Misérables ?</label><br>
+        <input type="radio" name="q3" value="a">A. Victor Hugo<br>
+        <input type="radio" name="q3" value="b">B. Emile Zola<br>
+        <input type="radio" name="q3" value="c">C. Gustave Flaubert<br>
+      </li>
+      <li>
+        <label for="q4">Question 4: Combien de continents y a-t-il dans le monde ?</label><br>
+        <input type="radio" name="q4" value="a">A. 3<br>
+        <input type="radio" name="q4" value="b">B. 5<br>
+        <input type="radio" name="q4" value="c">C. 7<br>
+      </li>
+      <li>
+        <label for="q5">Question 5: Quel est le plus grand océan du monde ?</label><br>
+        <input type="radio" name="q5" value="a">A. Atlantique<br>
+        <input type="radio" name="q5" value="b">B. Pacifique<br>
+        <input type="radio" name="q5" value="c">C. Indien<br>
+      </li>
+      <li>
+        <label for="q6">Question 6: Qui a découvert la gravité ?</label><br>
+        <input type="radio" name="q6" value="a">A. Isaac Newton<br>
+        <input type="radio" name="q6" value="b">B. Albert Einstein<br>
+        <input type="radio" name="q6" value="c">C. Galilée<br>
+      </li>
+      <li>
+        <label for="q7">Question 7: Qui a peint La Joconde ?</label><br>
+        <input type="radio" name="q7" value="a">A. Vincent van Gogh<br>
+    <input type="radio" name="q7" value="b">B. Leonardo da Vinci<br>
+    <input type="radio" name="q7" value="c">C. Pablo Picasso<br>
+  </li>
+  <li>
+    <label for="q8">Question 8: Quel est le plus grand désert du monde ?</label><br>
+    <input type="radio" name="q8" value="a">A. Sahara<br>
+    <input type="radio" name="q8" value="b">B. Gobi<br>
+    <input type="radio" name="q8" value="c">C. Atacama<br>
+  </li>
+  <li>
+    <label for="q9">Question 9: Qui a écrit Don Quichotte ?</label><br>
+    <input type="radio" name="q9" value="a">A. William Shakespeare<br>
+    <input type="radio" name="q9" value="b">B. Miguel de Cervantes<br>
+    <input type="radio" name="q9" value="c">C. Gustave Flaubert<br>
+  </li>
+  <li>
+    <label for="q10">Question 10: Combien de joueurs y a-t-il dans une équipe de football ?</label><br>
+    <input type="radio" name="q10" value="a">A. 8<br>
+    <input type="radio" name="q10" value="b">B. 10<br>
+    <input type="radio" name="q10" value="c">C. 11<br>
+  </li>
+</ol>
+<input type="submit" value="Soumettre">
+
+      </form>
+</body>
 </html>
+
